@@ -1,0 +1,3 @@
+[submodule "ofxGstVideoSyncPlayer"]
+	path = ofxGstVideoSyncPlayer
+	url = https://github.com/PetrosKataras/ofxGstVideoSyncPlayer.git
