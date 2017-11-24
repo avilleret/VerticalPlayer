@@ -11,5 +11,5 @@ class ofApp : public ofBaseApp
     void draw   ();
     void exit   ();
 
-    std::vector<ofxGstVideoSyncPlayer* > player;
+    ofxGstVideoSyncPlayer player;
 };

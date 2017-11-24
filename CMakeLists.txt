@@ -1,4 +1,4 @@
-project(vertivalplayer)
+project(verticalplayer)
 
 cmake_minimum_required(VERSION 3.1)
 
@@ -33,6 +33,7 @@ add_executable(
     ${OFXADDONS_SOURCES}
 )
 
+target_compile_definitions(${PROJECT_NAME} PRIVATE MASTER)
 target_compile_definitions(${PROJECT_NAME}-1 PRIVATE ONE)
 target_compile_definitions(${PROJECT_NAME}-2 PRIVATE TWO)
 
